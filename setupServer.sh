@@ -10,7 +10,7 @@ apt-get install python2.7 -y
  
 # install NodeJS
 cd ~
-curl -sL https://deb.nodesource.com/setup_6.x -o nodesource_setup.sh
+curl -sL https://deb.nodesource.com/setup_9.x -o nodesource_setup.sh
 sudo bash nodesource_setup.sh
 sudo apt-get install nodejs
 sudo apt-get install build-essential -y
